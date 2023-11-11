@@ -4,8 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define LIST_SPACE_INCREMENT 10
-
 typedef enum list_error {
     OK,
     ERR_INVALID_INDEX,

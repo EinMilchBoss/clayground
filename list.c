@@ -1,5 +1,7 @@
 #include "list.h"
 
+const LIST_SPACE_INCREMENT = 10;
+
 static void
 list_u8_space_inc(list_u8_t *const list) {
     list->space += LIST_SPACE_INCREMENT;
