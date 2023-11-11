@@ -7,7 +7,7 @@
 #define LIST_SPACE_INCREMENT 10
 
 typedef enum list_error {
-    OK = 0,
+    OK,
     ERR_INVALID_INDEX,
 } list_error_t;
 
